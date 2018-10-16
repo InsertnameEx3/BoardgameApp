@@ -1,6 +1,6 @@
 <?php
 /**
- * get class
+ * get database
  * @Player
  * @Users
  */

@@ -19,7 +19,7 @@ class QueryBuilder
     {
         /**
          * @var $statement all data for given table
-         * @var $intoClass define class for output
+         * @var $intoClass define database for output
          */
         $statement = $this->pdo->prepare("select * from {$table}");
         $statement->execute();
@@ -27,5 +27,99 @@ class QueryBuilder
         return $statement->fetchAll(PDO::FETCH_CLASS, $intoClass);
 
     }
+
+    public function insertUser($fname, $lname, $email, $nickname){
+        $statement = $this->pdo->prepare("insert into users(fname, lname, email) values('{$fname}','{$lname}','{$email}'); insert into player (id, nickname) values
+        ((select id from users where fname = '{$fname}'), '{$nickname}');");
+        $statement->execute();
+
+}
+
+
+    public function deleteUser($id){
+
+        $statement2 = $this->pdo->prepare("delete from player where id = {$id}");
+        $statement2->execute();
+        $statement = $this->pdo->prepare("delete from users where id = {$id}");
+        $statement->execute();
+
+    }
+    public function selectUser($id)
+    {
+        /**
+         * @var $statement all data for given table
+         * @var $intoClass define database for output
+         */
+        $user = $this->pdo->prepare("select id, fname, lname, email from users where id = {$id}");
+
+
+        $user->execute();
+
+        return $user->fetchAll(PDO::FETCH_ASSOC);
+
+
+    }
+    public function alterUser($fname, $lname, $email, $nickname, $id)
+    {
+        /**
+         * @var $statement all data for given table
+         * @var $intoClass define database for output
+         */
+        $user = $this->pdo->prepare("update users set fname = '{$fname}', lname = '{$lname}', email ='{$email}' where id = '{$id}'; update player set nickname = '{$nickname}' where id = '{$id}'; ");
+        $user->execute();
+
+
+
+    }
+
+
+    public function selectPlayer($id){
+        $nickname = $this->pdo->prepare("select nickname from player where id = {$id};");
+        $nickname->execute();
+        return $nickname->fetchAll(PDO::FETCH_ASSOC);
+
+    }
+
+
+
+    public function insertGame($name, $nop, $dor, $description){
+        $statement = $this->pdo->prepare("insert into games(name, nop, dor, description) values('{$name}', '{$nop}', '{$dor}', '{$description}')");
+        $statement->execute();
+
+
+    }
+    public function removeGame($id){
+    $statement = $this->pdo->prepare("delete from games where id = '{$id}'");
+    $statement->execute();
+
+
+}
+    public function selectGame($id){
+        $statement = $this->pdo->prepare("select * from games where id = '{$id}'");
+        $statement->execute();
+
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    }
+
+
+
+    public function selectBattleplayer($nickname){
+        $nickname = $this->pdo->prepare("select id from player where nickname = {$nickname}");
+        $nickname->execute();
+        return $nickname->fetchAll(PDO::FETCH_ASSOC);
+
+    }
+    public function insertBattleplayer($id){
+        $statement = $this->pdo->prepare("insert into battles(playerid) values($id)");
+        $statement->execute();
+
+
+    }
+
+
+
+
+
 
 }

@@ -8,11 +8,11 @@ class Player
     public $name;
     public $readyForGame; //boolean true/false
 
-    public function __construct($name, $available)
-    {
-        $this->name = $name;
-        $this->readyForGame = $available;
-    }
+    //public function __construct($name, $available)
+    //{
+        //$this->name = $name;
+       // $this->readyForGame = $available;
+    //}
 
     public function isAvailable()
     {

@@ -31,15 +31,6 @@
                     <a class="nav-link" href="games">Games </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'users') : ?>
-                <li class="nav-item active">
-                    <a class="nav-link" href="users">Users <span class="sr-only">(current)</span></a>
-                </li>
-            <?php else :?>
-                <li class="nav-item ">
-                    <a class="nav-link" href="users">Users </a>
-                </li>
-            <?php endif; ?>
             <?php if($current == 'players') : ?>
                 <li class="nav-item active">
                     <a class="nav-link" href="players">Players <span class="sr-only">(current)</span></a>
@@ -58,9 +49,16 @@
                     <a class="nav-link" href="battles">Battles </a>
                 </li>
             <?php endif; ?>
-            <li class="nav-item ">
-                <a class="nav-link" href="excercise">Exercise </a>
-            </li>
+            <?php if($current == 'leaderboard') : ?>
+                <li class="nav-item active">
+                    <a class="nav-link" href="leaderboard">Leaderboard <span class="sr-only">(current)</span></a>
+                </li>
+            <?php else :?>
+                <li class="nav-item ">
+                    <a class="nav-link" href="leaderboard">Leaderboard </a>
+                </li>
+            <?php endif; ?>
+
 
         </ul>
 
