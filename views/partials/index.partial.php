@@ -42,7 +42,7 @@
                         if ($item == 'fname') {
                             echo "<tr><td>" . $value . "</td><td>" . $items->lname . "</td><td>" . $items->email .
                                 "</td><td><form method=\"post\" action=\"deleteuser\" class=\"form-inline\">
-                                    <button type=\"submit\" class=\"btn btn-danger\" aria-label=\"Delete\" name=\"id\" value=\"$items->id\">
+                                    <button type=\"submit\" class=\"btn btn-danger\" aria-label=\"Delete\ name=\"id\" value=\"$items->id\">
                                         <i class=\"fa fa-trash-o fa-fw\" aria-hidden=\"true\"></i>
                                     </button>
                                  </form></td>
