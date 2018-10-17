@@ -1318,173 +1318,210 @@
     <table id="330" parent="2" name="battles"/>
     <table id="331" parent="2" name="games"/>
     <table id="332" parent="2" name="player"/>
-    <table id="333" parent="2" name="users"/>
-    <column id="334" parent="330" name="id">
+    <table id="333" parent="2" name="players"/>
+    <table id="334" parent="2" name="users"/>
+    <column id="335" parent="330" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="330" name="dtPlayed">
+    <column id="336" parent="330" name="dtPlayed">
       <Position>2</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="336" parent="330" name="gameid">
+    <column id="337" parent="330" name="gameid">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="337" parent="330" name="players">
-      <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
     <column id="338" parent="330" name="wonby">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
+      <Position>4</Position>
+      <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="339" parent="330" name="score">
-      <Position>6</Position>
+      <Position>5</Position>
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="340" parent="330" name="battles_games__fk">
+    <column id="340" parent="330" name="players">
+      <Position>6</Position>
+      <DataType>varchar(12800)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="341" parent="330" name="battles_games__fk">
       <ColNames>gameid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="341" parent="330" name="PRIMARY">
+    <key id="342" parent="330" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="342" parent="330" name="battles_games__fk">
+    <foreign-key id="343" parent="330" name="battles_games__fk">
       <ColNames>gameid</ColNames>
       <RefSchemaName>boardgame</RefSchemaName>
       <RefTableName>games</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="343" parent="331" name="id">
+    <column id="344" parent="331" name="id">
       <Position>1</Position>
       <DataType>int(4)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="344" parent="331" name="name">
+    <column id="345" parent="331" name="name">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="345" parent="331" name="nop">
+    <column id="346" parent="331" name="nopf">
       <Position>3</Position>
-      <DataType>varchar(128)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>int(2)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="346" parent="331" name="dor">
+    <column id="347" parent="331" name="nopt">
       <Position>4</Position>
+      <DataType>int(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="331" name="dor">
+      <Position>5</Position>
       <DataType>year(4)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="331" name="publisherid">
-      <Position>5</Position>
+    <column id="349" parent="331" name="publisherid">
+      <Position>6</Position>
       <DataType>int(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="331" name="duration">
-      <Position>6</Position>
+    <column id="350" parent="331" name="duration">
+      <Position>7</Position>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="331" name="description">
-      <Position>7</Position>
+    <column id="351" parent="331" name="description">
+      <Position>8</Position>
       <DataType>varchar(12800)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="350" parent="331" name="PRIMARY">
+    <key id="352" parent="331" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="351" parent="332" name="id">
+    <column id="353" parent="332" name="id">
       <Position>1</Position>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="332" name="nickname">
+    <column id="354" parent="332" name="nickname">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="332" name="gamestatus">
+    <column id="355" parent="332" name="gamestatus">
       <Position>3</Position>
       <DataType>bit(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>b&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="354" parent="332" name="PRIMARY">
+    <column id="356" parent="332" name="wins">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="357" parent="332" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="355" parent="332" name="player_users_id_fk">
+    <foreign-key id="358" parent="332" name="player_users_id_fk">
       <ColNames>id</ColNames>
       <RefSchemaName>boardgame</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="356" parent="333" name="id">
+    <column id="359" parent="333" name="id">
       <Position>1</Position>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="333" name="fname">
+    <column id="360" parent="333" name="Player">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="361" parent="333" name="Player">
+      <ColNames>Player</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="362" parent="333" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="363" parent="333" name="Player">
+      <ColNames>Player</ColNames>
+      <UnderlyingIndexName>Player</UnderlyingIndexName>
+    </key>
+    <column id="364" parent="334" name="id">
+      <Position>1</Position>
+      <DataType>int(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="334" name="fname">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="333" name="lname">
+    <column id="366" parent="334" name="lname">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="333" name="email">
+    <column id="367" parent="334" name="email">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="333" name="mobile">
+    <column id="368" parent="334" name="mobile">
       <Position>5</Position>
       <DataType>varchar(10)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="333" name="password">
+    <column id="369" parent="334" name="password">
       <Position>6</Position>
       <DataType>varchar(256)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="362" parent="333" name="PRIMARY">
+    <key id="370" parent="334" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

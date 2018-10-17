@@ -12,12 +12,12 @@ if(Request::uri() == 'addgame'){
     $name = $_POST['titel'];
     $nopf = $_POST['nopf'];
     $nopt = $_POST['nopt'];
-    $nop = $nopf . '-' . $nopt;
+
     $dor = $_POST['date'];
     $description = $_POST['omschrijving'];
 
 
-    $results = $app['database']->insertGame($name, $nop, $dor, $description);
+    $results = $app['database']->insertGame($name, $nopf, $nopt, $dor, $description);
 
     header("Location: /games");
     exit;
@@ -32,8 +32,11 @@ elseif(Request::uri() == 'removegame'){
 
 }
 elseif(Request::uri() == 'playgame'){
-    $id = $_POST['id'];
-    $result = $app['database']->selectGame($id);
+    $titel = $_POST['titel'];
+    $nopf = $_POST['nopf'];
+    $nopt = $_POST['nopt'];
+    $nop = $nopf . "-" . $nopt;
+
 
     require'public/playgame.php';
 

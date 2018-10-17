@@ -21,9 +21,10 @@
 
 
                 if ($item == 'nickname') {
-                    echo "<tr><td>" . $value . "</td></tr> ";
+                    echo "<tr><td></td><td>" . $value . "</td> <td>$items->wins</td></tr> ";
 
                 }
+
             }
         }
 
@@ -35,3 +36,19 @@
         <div class="card-footer"></div>
     </div>
 </div>
+
+<style>
+    table {
+        counter-reset: rowNumber;
+    }
+
+    table tr {
+        counter-increment: rowNumber;
+    }
+
+    table tr td:first-child::before {
+        content: counter(rowNumber);
+        min-width: 1em;
+        margin-right: 0.5em;
+    }
+</style>

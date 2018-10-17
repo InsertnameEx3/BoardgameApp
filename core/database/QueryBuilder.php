@@ -82,8 +82,8 @@ class QueryBuilder
 
 
 
-    public function insertGame($name, $nop, $dor, $description){
-        $statement = $this->pdo->prepare("insert into games(name, nop, dor, description) values('{$name}', '{$nop}', '{$dor}', '{$description}')");
+    public function insertGame($name, $nopf, $nopt, $dor, $description){
+        $statement = $this->pdo->prepare("insert into games(name, nopf, nopt, dor, description) values('{$name}', '{$nopf}', '{$nopt}', '{$dor}', '{$description}')");
         $statement->execute();
 
 
@@ -104,17 +104,54 @@ class QueryBuilder
 
 
 
-    public function selectBattleplayer($nickname){
-        $nickname = $this->pdo->prepare("select id from player where nickname = {$nickname}");
+    public function addBattleplayer($nickname){
+        $nickname = $this->pdo->prepare("insert into players(Player) values('{$nickname}')");
         $nickname->execute();
-        return $nickname->fetchAll(PDO::FETCH_ASSOC);
+
 
     }
+
+    public function selectBattleplayer(){
+        $selection = $this->pdo->prepare("select 'player%' from battles");
+        $selection->execute();
+
+        return $selection->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+
+
     public function insertBattleplayer($id){
         $statement = $this->pdo->prepare("insert into battles(playerid) values($id)");
         $statement->execute();
 
 
+    }
+    public function removeBattleplayer($player){
+        $statement = $this->pdo->prepare("delete from players where Player = '{$player}'");
+        $statement->execute();
+
+
+    }
+    public function selectGameid($title){
+        $statement = $this->pdo->prepare("select id from games where name = '{$title}'");
+        $statement->execute();
+
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    }
+    public function selectplayers()
+    {
+        $statement = $this->pdo->prepare("select Player from players");
+        $statement->execute();
+
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    }
+
+
+    public function finishBattle($date, $winner, $gameid, $players){
+        $statement = $this->pdo->prepare("insert into battles(dtPlayed, gameid,  wonby, players) values('{$date}','{$gameid}', '{$winner}', '{$players}');");
+        $statement->execute();
     }
 
 

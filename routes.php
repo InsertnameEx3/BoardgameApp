@@ -33,7 +33,12 @@ if($_SERVER['HTTP_HOST'] == 'localhost:8080') {
 
 
     $router->post('startbattle', 'controllers/battles.php');
+    $router->post('deletebattleplayer', 'controllers/battles.php');
     $router->post('addplayertobattle', 'controllers/battles.php');
+    $router->post('selectgame', 'controllers/battles.php');
+    $router->post('finishbattle', 'controllers/battles.php');
+
+
 }
 
 
@@ -62,7 +67,9 @@ else {
     $router->post('playgame', 'controllers/games.php');
 
     $router->post('startbattle', 'controllers/battles.php');
+    $router->post('deletebattleplayer', 'controllers/battles.php');
     $router->post('addplayertobattle', 'controllers/battles.php');
+    $router->post('selectgame', 'controllers/battles.php');
 
 }
 

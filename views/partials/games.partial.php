@@ -31,9 +31,9 @@
                 foreach ($results as $items) {
                     foreach ($items as $item => $value) {
                         if ($item == 'name') {
-                            echo    "<tr><td><form method='post' class='form-inline' action='/playgame'><button type='submit' class='btn btn-primary' name='id' value='$items->id'>Play game</button></form></td>" .
+                            echo    "<tr><td><form method='post' class='form-inline' action='/playgame'><button type='submit' class='btn btn-primary' name='nopf' value='$items->nopf'><input value='$value' name='titel' style='display:none;'><input value='$items->nopt' name='nopt' style='display:none;'>Play game</button></form></td>" .
                                     "<td><a href=\"#\" data-toggle=\"popover\" data-trigger=\"hover\" title=\"Omschrijving\" data-content=\"  $items->description \">
-                                    " . $value . "</a></td>" . "<td>" . $items->nop . "</td><td>" . $items->dor .
+                                    " . $value . "</a></td>" . "<td>" . $items->nopf . "-" . $items->nopt . "</td><td>" . $items->dor .
                                     "</td><td><form method='post' class='form-inline' action='/removegame'><button type='submit' class='btn btn-primary' name='id' value='$items->id'><i class=\"fa fa-times-circle \"></i></button></form></td></tr> ";
                         }
                     }
