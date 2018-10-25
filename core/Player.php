@@ -7,6 +7,8 @@ class Player
 {
     public $name;
     public $readyForGame; //boolean true/false
+    public $wins;
+
 
     //public function __construct($name, $available)
     //{

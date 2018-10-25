@@ -1,6 +1,8 @@
 <?=require'views/partials/head.php';?>
     <div class="container">
 <form method="post" action="/selectgame">
+
+
     <div class="form-group row">
         <div class="col-md-2">
         <label>Spel</label>
@@ -28,14 +30,7 @@
     </div>
 
 
-    <div class="form-group row">
-        <div class="col-md-2">
-            <label for="example-number-input">Hoeveelheid spelers</label>
-        </div>
-        <div class="col-10">
-            <input class="form-control" type="number" value="" min="" max="" id="example-number-input" name="nop">
-        </div>
-    </div>
+
 
 
     <div class="form-group row">

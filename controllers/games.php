@@ -4,9 +4,13 @@
  * phpoop
  */
 
+session_start();
+if(!is_null($_SESSION)){
+
 require 'core/Player.php';
 require 'core/Users.php';
 require 'core/Games.php';
+require 'core/Players.php';
 
 if(Request::uri() == 'addgame'){
     $name = $_POST['titel'];
@@ -14,10 +18,17 @@ if(Request::uri() == 'addgame'){
     $nopt = $_POST['nopt'];
 
     $dor = $_POST['date'];
+    $score = $_POST['score'];
     $description = $_POST['omschrijving'];
 
+    if($_SESSION['functie'] == 'admin'){
+        $results = $app['database']->insertGame($name, $nopf, $nopt, $dor, $score, $description, '0');
+    }
+    elseif($_SESSION['functie'] == 'gebruiker'){
+        //suggestion false/true, an user can suggest a game which can be added by an admin;
+        $results = $app['database']->insertGame($name, $nopf, $nopt, $dor, $score, $description, '1');
+    }
 
-    $results = $app['database']->insertGame($name, $nopf, $nopt, $dor, $description);
 
     header("Location: /games");
     exit;
@@ -32,17 +43,31 @@ elseif(Request::uri() == 'removegame'){
 
 }
 elseif(Request::uri() == 'playgame'){
+    $results = $app['database']->selectAll('games', 'Games');
+    $players = $app['database']->selectAll('player', 'Player');
+    $selection = $app['database']->selectAll('players', 'Players');
     $titel = $_POST['titel'];
     $nopf = $_POST['nopf'];
     $nopt = $_POST['nopt'];
-    $nop = $nopf . "-" . $nopt;
+    $nop = $nopf;
 
+    require'public/battle.php';
 
-    require'public/playgame.php';
+}
+elseif(Request::uri() == 'addsuggestion'){
+    $id = $_POST['id'];
 
+    $result = $app['database']->addSuggestion($id);
 }
 else {
 
-    $results = $app['database']->selectAll('games', 'Games');
+    $results = $app['database']->selectGames('0', 'Games');
+    $suggestions = $app['database']->selectGames('1', 'Games');
     require 'views/games.view.php';
+}
+
+}
+else{
+    header("Location:/");
+    exit;
 }

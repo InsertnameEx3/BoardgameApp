@@ -4,25 +4,23 @@
  * phpoop
  */
 
+session_start();
+if(!is_null($_SESSION)) {
 
-require 'core/Player.php';
-require 'core/Users.php';
+    require 'core/Player.php';
+    require 'core/Users.php';
 
-$results = $app['database']->selectAll('player', 'Player');
-//$nickname = $results->name;
 
-//$player = new Player('hello', false);
 
-    /**foreach($results as $items) {
-        foreach ($items as $item => $value) {
-            if($value = 0){
-                $items->gamestatus = false;
+    $results = $app['database']->selectAll('player', 'Player');
 
-            }
-            else{
-                $items->gamestatus = true;
 
-            }
-        }
-    }*/
-require 'views/players.view.php';
+    require 'views/players.view.php';
+
+
+
+}
+else{
+    header("Location:/");
+    exit;
+}

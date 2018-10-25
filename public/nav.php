@@ -13,7 +13,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <?php if($current == 'home') : ?>
+            <?php if($current == 'home') : $_SESSION['previous_uri'] = 'home';?>
                 <li class="nav-item active">
                     <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -22,7 +22,7 @@
                     <a class="nav-link" href="home">Home </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'games') : ?>
+            <?php if($current == 'games') : $_SESSION['previous_uri'] = 'games';?>
                 <li class="nav-item active">
                     <a class="nav-link" href="games">Games <span class="sr-only">(current)</span></a>
                 </li>
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="games">Games </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'players') : ?>
+            <?php if($current == 'players') : $_SESSION['previous_uri'] = 'players';?>
                 <li class="nav-item active">
                     <a class="nav-link" href="players">Players <span class="sr-only">(current)</span></a>
                 </li>
@@ -40,7 +40,7 @@
                     <a class="nav-link" href="players">Players </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'battles') : ?>
+            <?php if($current == 'battles') : $_SESSION['previous_uri'] = 'battles';?>
                 <li class="nav-item active">
                     <a class="nav-link" href="battles">Battles <span class="sr-only">(current)</span></a>
                 </li>
@@ -49,7 +49,7 @@
                     <a class="nav-link" href="battles">Battles </a>
                 </li>
             <?php endif; ?>
-            <?php if($current == 'leaderboard') : ?>
+            <?php if($current == 'leaderboard') : $_SESSION['previous_uri'] = 'leaderboard';?>
                 <li class="nav-item active">
                     <a class="nav-link" href="leaderboard">Leaderboard <span class="sr-only">(current)</span></a>
                 </li>
@@ -59,8 +59,29 @@
                 </li>
             <?php endif; ?>
 
-
         </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="gamestatus" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php if($_SESSION["gamestatus"] == 0){echo"offline";} else{echo"online";}?> </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gamestatus">
+                    <a class="dropdown-item" href="changestatus" ><?php if($_SESSION["gamestatus"] == 0){echo"online";} else{echo"offline";}?></a>
+                </div>
+            </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="gebruiker" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?=$_SESSION["nickname"]?> </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gebruiker">
+                        <a class="dropdown-item" href="/account">Bekijk account</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/loguit">Log uit</a>
+                    </div>
+                </li>
+        </ul>
+
+
+
+
 
     </div>
 </nav>
