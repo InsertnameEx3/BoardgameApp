@@ -22,3 +22,4 @@ Loguit en registreren werken maar worden niet goed doorverwezen.
 # Boardgame
 Boardgame app for a school project
 >>>>>>> d17dc67d09f2dfff4f972fc6b92c20834ab740e6
+"# BoardgameApp" 
