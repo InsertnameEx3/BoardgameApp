@@ -4,22 +4,25 @@
  * phpoop
  */
 session_start();
-if(!is_null($_SESSION)){
+if (!empty($_SESSION)) {
 
 
-require 'core/Player.php';
-require 'core/Users.php';
-/**
- * @internal view index.php
- */
+    require 'core/Player.php';
+    require 'core/Users.php';
+    /**
+     * @internal view index.php
+     */
 
-$results = $app['database']->leaderboard('Player');
+    $spelers = $app['database']->leaderboard('Player');
 
+    $spellen = $app['database']->leaderboardGames('Games');
 
-require 'views/leaderboard.view.php';
+    require 'views/leaderboard.view.php';
 
-}
-else{
+} else {
+    session_unset();
+    session_destroy();
+    $_SESSION = array();
     header("Location: /");
     exit;
 }

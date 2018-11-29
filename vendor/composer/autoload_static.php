@@ -6,7 +6,7 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitff28a32ced38d1989b933ca80eb883c3
 {
-    public static $classMap = array (
+    public static $classMap = array(
         'Battles' => __DIR__ . '/../..' . '/core/Battles.php',
         'Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
         'Games' => __DIR__ . '/../..' . '/core/Games.php',

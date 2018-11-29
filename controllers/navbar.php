@@ -1,17 +1,16 @@
 <?php
 
 session_start();
-if (Request::uri() == 'changestatus') {
+if (Request::uri() == '/changestatus') {
     $id = $_SESSION["id"];
-    //echo $_SESSION['previous_uri'];
 
-    if($_SESSION["gamestatus"] == 1) {
+
+    if ($_SESSION["gamestatus"] == 1) {
 
         $test = $app['database']->changeStatus(0, $id);
         $_SESSION["gamestatus"] = 0;
         header('Location: ' . $_SESSION['previous_uri']);
-    }
-    elseif($_SESSION["gamestatus"] == 0) {
+    } elseif ($_SESSION["gamestatus"] == 0) {
 
         $test = $app['database']->changeStatus(1, $id);
         $_SESSION["gamestatus"] = 1;
@@ -19,15 +18,12 @@ if (Request::uri() == 'changestatus') {
 
 
     }
-}
-elseif (Request::uri() == 'account') {
+} elseif (Request::uri() == '/account') {
     require 'public/account.php';
-}
-elseif (Request::uri() == 'cancelaccountchange') {
+} elseif (Request::uri() == '/cancelaccountchange') {
     header("Location: " . $_SESSION['previous_uri']);
     exit;
-}
-elseif (Request::uri() == 'changeaccount') {
+} elseif (Request::uri() == '/changeaccount') {
     $nickname = convert($_POST['nickname']);
 
     $email = convert($_POST['email']);
@@ -39,21 +35,19 @@ elseif (Request::uri() == 'changeaccount') {
 
     $user = $app['database']->alterUser($fname, $lname, $email, $nickname, $id[0]['id']);
 
-    header("Location: /account");
+    header("Location: account");
     exit;
 
 
-}
-
-
-elseif (Request::uri() == 'account/cancelpasswordchange') {
-    header("Location: /account");
+} elseif (Request::uri() == '/cancelpasswordchange') {
+    header("Location: account");
     exit;
-}
-elseif (Request::uri() == 'account/changepassword') {
+} elseif (Request::uri() == '/changepassword') {
+    $errorSame = false;
+    $errorRepeat = false;
+    $errorPassword = false;
     require 'public/changepassword.php';
-}
-elseif (Request::uri() == 'account/newpassword') {
+} elseif (Request::uri() == '/newpassword') {
 
 
     $curpassword = convert($_POST['curpassword']);
@@ -66,34 +60,40 @@ elseif (Request::uri() == 'account/newpassword') {
 
     $ww = implode($results[0]);
 
+    $errorSame = false;
+    $errorRepeat = false;
+    $errorPassword = false;
 
 
-    if(password_verify($curpassword, $ww)) {
-        if($newpassword == $passwordmatch){
-            if($newpassword != $curpassword) {
+    if (password_verify($curpassword, $ww)) {
+        if ($newpassword == $passwordmatch) {
+            if ($newpassword != $curpassword) {
 
                 $password = password_hash($newpassword, PASSWORD_DEFAULT);
 
                 $app['database']->changePassword($password, $_SESSION['id']);
 
-                header("Location: /account");
+                header("Location: account");
                 exit;
+            } else {
+                $errorSame = true;
+                require 'public/changepassword.php';
             }
-            else{
-                echo "het nieuwe wachtwoord is hetzelfde als het oude wachtwoord";
-            }
-        }
-        else{
-            echo "de wachtwoorden zijn niet gelijk";
+        } else {
+            $errorRepeat = true;
+            require 'public/changepassword.php';
         }
 
+    } else {
+        $errorPassword = true;
+        require 'public/changepassword.php';
+
     }
-    else{
-        echo "het huidige wachtwoord klopt niet";
-    }
+
 
 }
-function convert($data){
+function convert($data)
+{
     $data = htmlspecialchars($data);
     $data = stripcslashes($data);
     return $data;

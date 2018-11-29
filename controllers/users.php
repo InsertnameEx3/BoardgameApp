@@ -5,7 +5,7 @@
  */
 
 session_start();
-if(!is_null($_SESSION)){
+if (!empty($_SESSION)) {
 
     require 'core/Player.php';
     require 'core/Users.php';
@@ -13,8 +13,10 @@ if(!is_null($_SESSION)){
     $results = $app['database']->selectAll('users', 'Users');
     require 'views/users.view.php';
 
-}
-else{
-    header("Location: /");
+} else {
+    session_unset();
+    session_destroy();
+    $_SESSION = array();
+    header("Location: ");
     exit;
 }

@@ -18,7 +18,11 @@
 
                         if ($item == 'nickname') {
                             echo "<li class='list-group-item'>" . $value . " ";
-                            if($items->gamestatus == 0){echo"offline";} else{echo"online";}
+                            if ($items->gamestatus == 0) {
+                                echo "offline";
+                            } else {
+                                echo "online";
+                            }
                             echo "</li> ";
                         }
                     }

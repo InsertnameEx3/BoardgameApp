@@ -2,22 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92f80d3-f2ef-447b-88b3-ee59d6c130b9" name="Default Changelist" comment="Initaial commit">
+      <change afterPath="$PROJECT_DIR$/controllers/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/bericht.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/berichten.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/berichtlezen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/contact.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Boardgame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Boardgame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/120a93bd-ffba-42d7-8a03-f70598dc1dc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/120a93bd-ffba-42d7-8a03-f70598dc1dc4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_quotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardgame.sql" beforeDir="false" afterPath="$PROJECT_DIR$/boardgame.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/battles.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/battles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/games.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/games.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/leaderboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/loguit.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/loguit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/players.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/players.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/registreren.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/alteruser.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/alteruser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/battle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/changepassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/changepassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/playgame.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/playgame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/battles.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/battles.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/foot.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/foot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/foot/footerStephan.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/foot/footerStephan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/gamemodal.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/gamemodal.partial.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/games.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/games.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/leaderboard.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/leaderboard.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/login/login.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/login.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/login/login.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/login.style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/login/registreren.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/registreren.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/players.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/players.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/users.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/users.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/registreren.view.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -88,54 +141,75 @@
     <session id="1147473091">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="4" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="account" value="1" />
           <entry key="battles" value="2" />
           <entry key="battles_games__fk" value="1" />
-          <entry key="css" value="2" />
-          <entry key="php" value="254" />
-          <entry key="sql" value="1" />
+          <entry key="css" value="11" />
+          <entry key="json" value="1" />
+          <entry key="md" value="5" />
+          <entry key="php" value="991" />
+          <entry key="rnc" value="1" />
+          <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="11" />
           <entry key="Database Element" value="2" />
-          <entry key="PHP" value="254" />
-          <entry key="SQL" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="5" />
+          <entry key="PHP" value="991" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
+          <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="11864" />
+          <entry key="md" value="503" />
+          <entry key="php" value="32936" />
           <entry key="sql" value="41" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="52" />
-          <entry key="PHP" value="11805" />
+          <entry key="HTML" value="136" />
+          <entry key="Markdown" value="503" />
+          <entry key="PHP" value="32792" />
           <entry key="PLAIN_TEXT" value="47" />
-          <entry key="SQL" value="48" />
+          <entry key="SQL" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="3" />
+          <entry key="PHP Class.type" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -143,64 +217,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/battles.php">
+        <entry file="file://$PROJECT_DIR$/views/index.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/partials/leaderboard.partial.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="442">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/Battles.php">
+        <entry file="file://$PROJECT_DIR$/controllers/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="14" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/Games.php">
+        <entry file="file://$PROJECT_DIR$/views/partials/login/login.partial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="21" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
+        <entry file="file://$PROJECT_DIR$/views/partials/login/login.style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/games.php">
+        <entry file="file://$PROJECT_DIR$/controllers/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/battle.php">
+        <entry file="file://$PROJECT_DIR$/public/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="459">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/foot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -208,26 +291,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/games.partial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="228" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="228" />
+            <state relative-caret-position="339">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/playgame.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -241,6 +315,40 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>requ</find>
+      <find>request</find>
+      <find>req</find>
+      <find>&lt;a href</find>
+      <find>&lt;form</find>
+      <find>&lt;a href=</find>
+      <find>href=&quot;</find>
+      <find>header</find>
+      <find>header(&quot;Location:</find>
+      <find>Request::i</find>
+      <find>Request::uri() == '</find>
+      <find>Header(&quot;</find>
+      <find>header(&quot;Location</find>
+      <find>/selectgame</find>
+      <find>action=&quot;</find>
+      <find>startbattle</find>
+      <find>Request::uri() ==</find>
+      <find>header(&quot;</find>
+      <find>Request::uri</find>
+      <find>request::uri() ==</find>
+      <find>header(&quot;Locati</find>
+      <find>header(&quot;Location:</find>
+      <find>select</find>
+      <find>regist</find>
+      <find>login</find>
+      <find>berichten</find>
+      <find>request::uri() ==</find>
+      <find>header(</find>
+      <find>Request::uri() ==</find>
+      <find>action='/</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -248,48 +356,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/views/partials/battles/battles.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/games/games.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/foot/foot.php" />
-        <option value="$PROJECT_DIR$/views/partials/index/index.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/players/players.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/users/users.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/excercise/excercise.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/excercise.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/foot/footerRudy.php" />
-        <option value="$PROJECT_DIR$/views/users.view.php" />
-        <option value="$PROJECT_DIR$/views/excercise.view.php" />
-        <option value="$PROJECT_DIR$/views/index.view.php" />
-        <option value="$PROJECT_DIR$/controllers/adduser.php" />
-        <option value="$PROJECT_DIR$/core/Player.php" />
-        <option value="$PROJECT_DIR$/controllers/players.php" />
-        <option value="$PROJECT_DIR$/views/partials/head.php" />
-        <option value="$PROJECT_DIR$/views/partials/foot.php" />
-        <option value="$PROJECT_DIR$/views/partials/gamemodal.partial.php" />
-        <option value="$PROJECT_DIR$/core/Games.php" />
-        <option value="$PROJECT_DIR$/views/games.view.php" />
+        <option value="$PROJECT_DIR$/views/login.view.php" />
+        <option value="$PROJECT_DIR$/views/registreren.view.php" />
+        <option value="$PROJECT_DIR$/views/partials/login/login.style.css" />
+        <option value="$PROJECT_DIR$/controllers/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/config.php" />
         <option value="$PROJECT_DIR$/views/partials/players.partial.php" />
-        <option value="$PROJECT_DIR$/public/alteruser.php" />
-        <option value="$PROJECT_DIR$/views/battles.view.php" />
-        <option value="$PROJECT_DIR$/views/players.view.php" />
-        <option value="$PROJECT_DIR$/views/partials/games.style.css" />
-        <option value="$PROJECT_DIR$/views/partials/battles.partial.php" />
-        <option value="$PROJECT_DIR$/controllers/user.php" />
+        <option value="$PROJECT_DIR$/views/users.view.php" />
+        <option value="$PROJECT_DIR$/views/games.view.php" />
+        <option value="$PROJECT_DIR$/views/partials/foot.php" />
+        <option value="$PROJECT_DIR$/views/partials/head.php" />
+        <option value="$PROJECT_DIR$/core/Contact.php" />
+        <option value="$PROJECT_DIR$/views/partials/users.partial.php" />
         <option value="$PROJECT_DIR$/public/nav.php" />
-        <option value="$PROJECT_DIR$/core/Battles.php" />
-        <option value="$PROJECT_DIR$/controllers/leaderboard.php" />
-        <option value="$PROJECT_DIR$/views/leaderboard.view.php" />
-        <option value="$PROJECT_DIR$/views/partials/index.partial.php" />
-        <option value="$PROJECT_DIR$/views/partials/games.partial.php" />
-        <option value="$PROJECT_DIR$/controllers/games.php" />
-        <option value="$PROJECT_DIR$/public/battle.php" />
-        <option value="$PROJECT_DIR$/core/Players.php" />
-        <option value="$PROJECT_DIR$/routes.php" />
-        <option value="$PROJECT_DIR$/public/playgame.php" />
         <option value="$PROJECT_DIR$/core/database/QueryBuilder.php" />
-        <option value="$PROJECT_DIR$/controllers/battles.php" />
         <option value="$PROJECT_DIR$/views/partials/leaderboard.partial.php" />
+        <option value="$PROJECT_DIR$/public/account.php" />
+        <option value="$PROJECT_DIR$/views/partials/berichten.php" />
+        <option value="$PROJECT_DIR$/public/changepassword.php" />
+        <option value="$PROJECT_DIR$/core/Router.php" />
+        <option value="$PROJECT_DIR$/public_html/index.php" />
+        <option value="$PROJECT_DIR$/routestest.php" />
+        <option value="$PROJECT_DIR$/core/Player.php" />
+        <option value="$PROJECT_DIR$/core/bootstrap.php" />
+        <option value="$PROJECT_DIR$/controllers/users.php" />
+        <option value="$PROJECT_DIR$/controllers/players.php" />
+        <option value="$PROJECT_DIR$/controllers/navbar.php" />
+        <option value="$PROJECT_DIR$/controllers/leaderboard.php" />
+        <option value="$PROJECT_DIR$/controllers/games.php" />
+        <option value="$PROJECT_DIR$/controllers/contact.php" />
+        <option value="$PROJECT_DIR$/views/bericht.view.php" />
+        <option value="$PROJECT_DIR$/views/contact.view.php" />
+        <option value="$PROJECT_DIR$/core/Request.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/partials/berichtlezen.php" />
+        <option value="$PROJECT_DIR$/views/partials/contact.partial.php" />
+        <option value="$PROJECT_DIR$/views/partials/gamemodal.partial.php" />
+        <option value="$PROJECT_DIR$/public/alteruser.php" />
+        <option value="$PROJECT_DIR$/public/battle.php" />
+        <option value="$PROJECT_DIR$/public/playgame.php" />
+        <option value="$PROJECT_DIR$/controllers/login.php" />
+        <option value="$PROJECT_DIR$/controllers/registreren.php" />
+        <option value="$PROJECT_DIR$/views/partials/login/registreren.partial.php" />
+        <option value="$PROJECT_DIR$/controllers/battles.php" />
+        <option value="$PROJECT_DIR$/controllers/loguit.php" />
+        <option value="$PROJECT_DIR$/routes.php" />
+        <option value="$PROJECT_DIR$/controllers/user.php" />
+        <option value="$PROJECT_DIR$/views/index.view.php" />
+        <option value="$PROJECT_DIR$/views/partials/games.partial.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/views/partials/login/login.partial.php" />
+        <option value="$PROJECT_DIR$/config.php" />
       </list>
     </option>
   </component>
@@ -299,11 +416,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1417" />
-    <option name="y" value="-11" />
-    <option name="width" value="1200" />
-    <option name="height" value="646" />
+    <option name="x" value="-57" />
+    <option name="y" value="47" />
+    <option name="width" value="1616" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -349,6 +471,13 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Boardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boardgame" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -361,16 +490,24 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Windesheim/OOP-PHP/Boardgame/views/partials/players.partial.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projecten/laravel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Windesheim\OOP-PHP\Boardgame\views\partials\login" />
       <recent name="D:\Windesheim\OOP-PHP\Boardgame\views\partials" />
       <recent name="D:\Windesheim\OOP-PHP\Boardgame\views\partials\head" />
       <recent name="D:\Windesheim\OOP-PHP\Boardgame\views\partials\foot" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://adsd.clow.nl/~s1129640/P1_OOAPP_Opdracht/account" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Windesheim\OOP-PHP\Boardgame\public_html" />
+      <recent name="D:\Windesheim\OOP-PHP\Boardgame\views\partials" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,7 +539,42 @@
       <workItem from="1539681279252" duration="7517000" />
       <workItem from="1539693571494" duration="11390000" />
       <workItem from="1539718732696" duration="7905000" />
-      <workItem from="1539767429582" duration="9850000" />
+      <workItem from="1539767429582" duration="15614000" />
+      <workItem from="1539842362781" duration="633000" />
+      <workItem from="1539850073333" duration="6161000" />
+      <workItem from="1539870378035" duration="13992000" />
+      <workItem from="1539885809510" duration="988000" />
+      <workItem from="1539931217515" duration="4017000" />
+      <workItem from="1540404611808" duration="28007000" />
+      <workItem from="1540460788330" duration="24845000" />
+      <workItem from="1540487027378" duration="1951000" />
+      <workItem from="1540566565808" duration="2256000" />
+      <workItem from="1540580452093" duration="684000" />
+      <workItem from="1540643035851" duration="6491000" />
+      <workItem from="1540726969380" duration="591000" />
+      <workItem from="1540813196034" duration="507000" />
+      <workItem from="1540816380467" duration="853000" />
+      <workItem from="1540824419217" duration="10267000" />
+      <workItem from="1540834779934" duration="4293000" />
+      <workItem from="1540839104284" duration="4591000" />
+      <workItem from="1540897814771" duration="16522000" />
+      <workItem from="1540917500053" duration="44000" />
+      <workItem from="1540918145076" duration="21790000" />
+      <workItem from="1540991565931" duration="619000" />
+      <workItem from="1541084414984" duration="589000" />
+      <workItem from="1541095352618" duration="739000" />
+      <workItem from="1541163104331" duration="74000" />
+      <workItem from="1541163214515" duration="16000" />
+      <workItem from="1541165170588" duration="4116000" />
+      <workItem from="1541230330620" duration="246000" />
+      <workItem from="1541247129360" duration="26000" />
+      <workItem from="1541329029127" duration="592000" />
+      <workItem from="1541401941128" duration="2090000" />
+      <workItem from="1541405909930" duration="295000" />
+      <workItem from="1541407810326" duration="6000" />
+      <workItem from="1542987628025" duration="643000" />
+      <workItem from="1543394062388" duration="1514000" />
+      <workItem from="1543481001384" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="Initaial commit">
       <created>1539676821929</created>
@@ -411,21 +583,28 @@
       <option name="project" value="LOCAL" />
       <updated>1539676821929</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initaial commit">
+      <created>1540487200194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540487200194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91622000" />
+    <option name="totallyTimeSpent" value="258840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -434,13 +613,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.25337487" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.2502596" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50064266" side_tool="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.40831557" />
+      <window_info anchor="right" id="Database" order="3" weight="0.40778252" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,156 +632,18 @@
     <MESSAGE value="Initaial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initaial commit" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/views/partials/login/login.partial.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/excercise.partial.php" />
-    <entry file="file://$PROJECT_DIR$/views/partials/foot/footerStephan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/foot/footerRudy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/add_player.php" />
-    <entry file="file://$PROJECT_DIR$/controllers/deleteuser.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/120a93bd-ffba-42d7-8a03-f70598dc1dc4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Users.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://120a93bd-ffba-42d7-8a03-f70598dc1dc4/schema/boardgame/table/battles/index/battles_games__fk" />
-    <entry file="file://$PROJECT_DIR$/views/partials/games.style.css" />
-    <entry file="file://$PROJECT_DIR$/views/players.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/excercise.view.php" />
-    <entry file="file://$PROJECT_DIR$/views/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/users.partial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/foot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/users.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://120a93bd-ffba-42d7-8a03-f70598dc1dc4/schema/boardgame/table/battles" />
-    <entry file="file://$PROJECT_DIR$/views/partials/players.partial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/leaderboard.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/players.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/users.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/index.partial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/leaderboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/battles.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -610,132 +651,326 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Router.php">
+    <entry file="file://$PROJECT_DIR$/views/bericht.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/alteruser.php">
+    <entry file="file://$PROJECT_DIR$/views/contact.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/gamemodal.partial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/battles.partial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/games.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Player.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/boardgame.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/index.php">
+    <entry file="file://$PROJECT_DIR$/views/players.view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users.view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/battles.partial.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/berichten.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="57" />
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Players.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Games.php">
+    <entry file="file://$PROJECT_DIR$/views/partials/berichtlezen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/contact.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/gamemodal.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/alteruser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/leaderboard.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routestest.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/battle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="-87">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/games.partial.php">
+    <entry file="file://$PROJECT_DIR$/controllers/loguit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="228" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/games.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/registreren.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/leaderboard.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/login/registreren.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/players.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/players.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/users.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/changepassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/playgame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        <state relative-caret-position="3247">
+          <caret line="191" column="19" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/battles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        <state relative-caret-position="2703">
+          <caret line="162" column="57" selection-start-line="162" selection-start-column="57" selection-end-line="162" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/leaderboard.partial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="11" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/login/login.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/login/login.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/foot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/games.partial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by: stephanhoeksema 2018
  * phpoop
@@ -10,11 +11,7 @@ class Player
     public $wins;
 
 
-    //public function __construct($name, $available)
-    //{
-        //$this->name = $name;
-       // $this->readyForGame = $available;
-    //}
+
 
     public function isAvailable()
     {

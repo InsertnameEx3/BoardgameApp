@@ -13,7 +13,7 @@
         <hr>
         <div class="col-10 offset-1">
 
-            <form method="post" action="/startbattle">
+            <form method="post" action="startbattle">
                 <button type="submit" class="btn btn-primary">
                     Start battle
                 </button>

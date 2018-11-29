@@ -8,10 +8,11 @@ $app['config'] = require 'config.php';
 /**
  *Require several classes
  */
-//require 'core/Router.php';
-//require 'core/Request.php';
-//require 'core/database/Connection.php';
-//require 'core/database/QueryBuilder.php';
+require 'core/Router.php';
+require 'core/Request.php';
+require 'core/database/Connection.php';
+require 'core/database/QueryBuilder.php';
+
 
 
 

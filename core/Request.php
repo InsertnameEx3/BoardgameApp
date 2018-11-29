@@ -11,10 +11,16 @@ class Request
         /**
          * trim() delete first and trailing '/'
          * parse_url() gets a specific part of the 'REQUEST_URI'
-        */
-        return trim(
+         */
+        $site = trim(
             parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'
         );
+
+        $site = str_replace('~s1129640/P1_OOAPP_Opdracht', '', $site);
+        $site = str_replace('~s1129640/P1_OOAPP_Opdracht/', '', $site);
+        return $site;
+
+
     }
 
     public static function method()

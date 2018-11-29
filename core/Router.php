@@ -30,7 +30,7 @@ class Router
     public function direct($uri, $requesttype)
     {
         //example: www.wfgamesapp.com/players we only need players
-        if(array_key_exists($uri, $this->routes[$requesttype])){
+        if (array_key_exists($uri, $this->routes[$requesttype])) {
             return $this->routes[$requesttype][$uri];
         }
         throw new Exception('Sorry uri not defined!');

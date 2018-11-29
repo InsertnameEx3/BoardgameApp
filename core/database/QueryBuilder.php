@@ -7,6 +7,7 @@
 class QueryBuilder
 {
     protected $pdo;
+
     /**
      * @inheritDoc
      */
@@ -28,7 +29,8 @@ class QueryBuilder
 
     }
 
-    public function comparator($email){
+    public function comparator($email)
+    {
 
         $password = $this->pdo->prepare("SELECT password FROM users WHERE email = '{$email}'");
 
@@ -37,21 +39,21 @@ class QueryBuilder
         return $password->fetchAll(PDO::FETCH_ASSOC);
 
 
-
     }
 
 
-    public function selectUserID($email){
+    public function selectUserID($email)
+    {
 
         $password = $this->pdo->prepare("SELECT id FROM users WHERE email = '{$email}'");
         $password->execute();
         return $password->fetchAll(PDO::FETCH_ASSOC);
 
 
-
     }
 
-    public function selectUser($id){
+    public function selectUser($id)
+    {
         $user = $this->pdo->prepare("SELECT * FROM users WHERE id = {$id}");
         $user->execute();
 
@@ -59,16 +61,17 @@ class QueryBuilder
     }
 
 
-
-    public function insertUser($fname, $lname, $email, $nickname, $password){
+    public function insertUser($fname, $lname, $email, $nickname, $password)
+    {
         $statement = $this->pdo->prepare("insert into users(fname, lname, email, password) values('{$fname}','{$lname}','{$email}', '{$password}'); insert into player (id, nickname) values
         ((select id from users where fname = '{$fname}'), '{$nickname}');");
         $statement->execute();
 
-}
+    }
 
 
-    public function deleteUser($id){
+    public function deleteUser($id)
+    {
 
         $statement2 = $this->pdo->prepare("delete from player where id = {$id}");
         $statement2->execute();
@@ -76,6 +79,7 @@ class QueryBuilder
         $statement->execute();
 
     }
+
     public function selectUser2($id)
     {
         /**
@@ -91,6 +95,7 @@ class QueryBuilder
 
 
     }
+
     public function alterUser($fname, $lname, $email, $nickname, $id)
     {
         /**
@@ -101,11 +106,11 @@ class QueryBuilder
         $user->execute();
 
 
-
     }
 
 
-    public function selectPlayer($id){
+    public function selectPlayer($id)
+    {
         $nickname = $this->pdo->prepare("select nickname from player where id = {$id};");
         $nickname->execute();
         return $nickname->fetchAll(PDO::FETCH_ASSOC);
@@ -113,20 +118,24 @@ class QueryBuilder
     }
 
 
-
-    public function insertGame($name, $nopf, $nopt, $dor, $score, $description, $suggestion){
+    public function insertGame($name, $nopf, $nopt, $dor, $score, $description, $suggestion)
+    {
         $statement = $this->pdo->prepare("insert into games(name, nopf, nopt, dor, score, description, suggestion) values('{$name}', '{$nopf}', '{$nopt}', '{$dor}', {$score}, '{$description}', {$suggestion})");
         $statement->execute();
 
 
     }
-    public function removeGame($id){
-    $statement = $this->pdo->prepare(" delete from battles where gameid = '{$id}'; delete from games where id = '{$id}';");
-    $statement->execute();
+
+    public function removeGame($id)
+    {
+        $statement = $this->pdo->prepare(" delete from battles where gameid = '{$id}'; delete from games where id = '{$id}';");
+        $statement->execute();
 
 
-}
-    public function selectGame($id){
+    }
+
+    public function selectGame($id)
+    {
         $statement = $this->pdo->prepare("select * from games where id = '{$id}'");
         $statement->execute();
 
@@ -135,8 +144,8 @@ class QueryBuilder
     }
 
 
-
-    public function addBattleplayer($nickname){
+    public function addBattleplayer($nickname)
+    {
         $nickname = $this->pdo->prepare("insert into players(Player) values('{$nickname}')");
         $nickname->execute();
 
@@ -144,28 +153,31 @@ class QueryBuilder
     }
 
 
-
-
-
-    public function insertBattleplayer($id){
+    public function insertBattleplayer($id)
+    {
         $statement = $this->pdo->prepare("insert into battles(playerid) values($id)");
         $statement->execute();
 
 
     }
-    public function removeBattleplayer($player){
+
+    public function removeBattleplayer($player)
+    {
         $statement = $this->pdo->prepare("delete from players where Player = '{$player}'");
         $statement->execute();
 
 
     }
-    public function selectGameid($title){
+
+    public function selectGameid($title)
+    {
         $statement = $this->pdo->prepare("select id from games where name = '{$title}'");
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_ASSOC);
 
     }
+
     public function selectplayers()
     {
         $statement = $this->pdo->prepare("select Player from players");
@@ -176,34 +188,57 @@ class QueryBuilder
     }
 
 
-    public function finishBattleWithoutScore($date, $winner, $gameid, $players){
+    public function finishBattleWithoutScore($date, $winner, $gameid, $players)
+    {
         $statement = $this->pdo->prepare("update player set wins = wins + 1 where nickname = '{$winner}'; insert into battles(dtPlayed, gameid,  wonby, players) values('{$date}','{$gameid}', '{$winner}', '{$players}');");
         $statement->execute();
     }
-    public function finishBattleWithScore($date, $winner, $score, $gameid, $players){
+
+    public function finishBattleWithScore($date, $winner, $score, $gameid, $players)
+    {
         $statement = $this->pdo->prepare("update player set wins = wins + 1 where nickname = '{$winner}'; insert into battles(dtPlayed, gameid,  wonby, score, players) values('{$date}','{$gameid}', '{$winner}', '{$score}', '{$players}');");
         $statement->execute();
     }
 
-    public function deletePlayers(){
+    public function addplayed($gameid)
+    {
+        $statement = $this->pdo->prepare("update games set played = played + 1 where id = {$gameid}");
+        $statement->execute();
+    }
+
+    public function deletePlayers()
+    {
         $statement = $this->pdo->prepare("delete from players");
         $statement->execute();
     }
-    public function leaderboard($intoClass){
+
+    public function leaderboard($intoClass)
+    {
         $statement = $this->pdo->prepare("select * from player order by wins DESC");
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_CLASS, $intoClass);
     }
 
-    public function selectPlayerbyID($id){
+    public function leaderboardgames($intoClass)
+    {
+        $statement = $this->pdo->prepare("select * from games order by played DESC");
+        $statement->execute();
+
+        return $statement->fetchAll(PDO::FETCH_CLASS, $intoClass);
+    }
+
+
+    public function selectPlayerbyID($id)
+    {
         $statement = $this->pdo->prepare("select * from player where id = {$id}");
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function changeStatus($state, $id){
+    public function changeStatus($state, $id)
+    {
         $statement = $this->pdo->prepare("update player set gamestatus = {$state} where id = {$id}");
         $statement->execute();
 
@@ -237,31 +272,49 @@ class QueryBuilder
         $statement->execute();
 
 
-
     }
 
-    public function selectGames($suggestion, $intoClass){
+    public function selectGames($suggestion, $intoClass)
+    {
         $statement = $this->pdo->prepare("select * from games where suggestion = {$suggestion}");
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_CLASS, $intoClass);
 
     }
+
     public function addSuggestion($id)
     {
         $statement = $this->pdo->prepare("update games set suggestion = 0 where id = '{$id}'");
         $statement->execute();
 
-        header("Location: /games");
+        header("Location: games");
         exit;
 
     }
 
 
+    public function insertMessage($naam, $email, $onderwerp, $bericht, $datum)
+    {
+        $statement = $this->pdo->prepare("INSERT INTO contact(naam, email, onderwerp, bericht, datum) VALUES('{$naam}', '{$email}', '{$onderwerp}', '{$bericht}', '{$datum}')");
+        $statement->execute();
+    }
 
+    public function selectMessage($id)
+    {
+        $statement = $this->pdo->prepare("SELECT * FROM contact WHERE id = {$id}");
+        $statement->execute();
 
+        return $statement->fetchAll(PDO::FETCH_CLASS, 'Contact');
+    }
 
+    public function selectAllMessages()
+    {
+        $statement = $this->pdo->prepare("SELECT * FROM contact ORDER BY datum");
+        $statement->execute();
 
+        return $statement->fetchAll(PDO::FETCH_CLASS, 'Contact');
+    }
 
 
 }
