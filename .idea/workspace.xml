@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e92f80d3-f2ef-447b-88b3-ee59d6c130b9" name="Default Changelist" comment="Initaial commit">
-      <change afterPath="$PROJECT_DIR$/controllers/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/bericht.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/berichten.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/berichtlezen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/contact.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Boardgame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Boardgame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/120a93bd-ffba-42d7-8a03-f70598dc1dc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/120a93bd-ffba-42d7-8a03-f70598dc1dc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_quotes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/inc/learning_tips.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice/03_php_include-html_start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice/03_php_include-html_start/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boardgame.sql" beforeDir="false" afterPath="$PROJECT_DIR$/boardgame.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/battles.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/battles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/games.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/games.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/leaderboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/loguit.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/loguit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/players.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/players.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/registreren.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/registreren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Player.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alteruser.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/alteruser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/battle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/changepassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/changepassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/playgame.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/playgame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/battles.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/battles.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/foot.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/foot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/foot/footerStephan.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/foot/footerStephan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/gamemodal.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/gamemodal.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/games.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/games.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/leaderboard.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/leaderboard.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/login/login.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/login.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/login/login.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/login.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/login/registreren.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/login/registreren.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/players.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/players.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/users.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/users.partial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/registreren.view.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +112,7 @@
           <entry key="battles_games__fk" value="1" />
           <entry key="css" value="11" />
           <entry key="json" value="1" />
-          <entry key="md" value="5" />
+          <entry key="md" value="6" />
           <entry key="php" value="991" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="2" />
@@ -182,7 +123,7 @@
           <entry key="CSS" value="11" />
           <entry key="Database Element" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="6" />
           <entry key="PHP" value="991" />
           <entry key="RNG Compact" value="1" />
           <entry key="SQL" value="2" />
@@ -217,15 +158,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -255,8 +187,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="486">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="408">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -291,17 +235,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/games.partial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="1156">
               <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -350,7 +294,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -594,13 +537,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258840000" />
+    <option name="totallyTimeSpent" value="259015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22750643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -613,8 +555,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.2502596" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50064266" side_tool="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49807197" weight="0.24899058" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.24899058" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -772,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/login/registreren.partial.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -829,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/battles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
+        <state relative-caret-position="492">
           <caret line="162" column="57" selection-start-line="162" selection-start-column="57" selection-end-line="162" selection-end-column="57" />
         </state>
       </provider>
@@ -934,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="486">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -962,15 +894,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/games.partial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="1156">
           <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

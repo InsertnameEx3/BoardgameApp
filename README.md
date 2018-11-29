@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Boardgameapp
 
 author: Marten
@@ -17,3 +18,7 @@ De functionaliteiten staan beschreven op de home pagina (alleen als de user is i
 
 gebruikers moeten handmatig in de database verandert worden om admin te worden,
 Loguit en registreren werken maar worden niet goed doorverwezen.
+=======
+# Boardgame
+Boardgame app for a school project
+>>>>>>> d17dc67d09f2dfff4f972fc6b92c20834ab740e6
